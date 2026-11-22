@@ -4,10 +4,9 @@ local discordia = require("discordia")
 local json = require("json")
 local fs = require("fs")
 local path = require("path")
-local deobfuscator = require("./src/deobfuscator")
-local analyzer = require("./src/analyzer")
-local beautifier = require("./src/beautifier")
-
+local deobfuscator = require("./deobfuscator")
+local analyzer = require("./analyzer")
+local beautifier = require("./beautifier")
 local client = discordia.Client({
   cacheAllMembers = false,
   logLevel = "warning"
